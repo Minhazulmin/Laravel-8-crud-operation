@@ -7,6 +7,20 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
+## Install process
+
+1. git clone url
+2. Composer update
+3. copy .env.example .env
+4. php artisan key:generate
+5. env file open and update Database name
+6. php artisan migrate
+7. php artisan serve
+
+Then Run your local server http://127.0.0.1:8000/
+
+Thank  you for install your application
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
@@ -62,16 +76,3 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 
 
-## Install process
-
-1. git clone url
-2. Composer update
-3. copy .env.example .env
-4. php artisan key:generate
-5. env file open and update Database name
-6. php artisan migrate
-7. php artisan serve
-
-Then Run your local server http://127.0.0.1:8000/
-
-Thank  you for install your application
